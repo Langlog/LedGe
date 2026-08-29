@@ -1,0 +1,26 @@
+.build/
+.build-photo-gatherer/
+.build-photo-gatherer-tests/
+dist/
+.DS_Store
+.swiftpm/
+DerivedData/
+xcuserdata/
+*.dmg
+ECC-Codex-使用指南.md
+.env
+.env.*
+*.log
+*.mov
+*.mp4
+*.m4v
+*.zip
+.vscode/
+.idea/
+
+# Independent local utility; publish it from a separate repository if needed.
+Sources/PhotoGatherer/
+Sources/PhotoGathererCore/
+Tests/PhotoGathererCoreTests/
+scripts/build-photo-gatherer.sh
+Resources/PhotoGatherer-Info.plist
